@@ -1,0 +1,39 @@
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+
+.form-input {
+    margin-right: 10px;
+}
+
+
+.form-button {
+    background-color: #3CBC8D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #2C8A6F;
+}
+
+.form-input:focus {
+    border-color: #3CBC8D;
+    box-shadow: 0 0 5px rgba(60, 188, 141, 0.5);
+}
